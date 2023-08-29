@@ -1,1 +1,1 @@
-window.alert(5+6);
+alert(5+6);
