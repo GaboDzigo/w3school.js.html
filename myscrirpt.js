@@ -1,1 +1,3 @@
-document.getElementById('demo').innerHTML = 'John Doe';
+let  x;
+x = 6;
+document.getElementById('demo').innerHTML = x;
