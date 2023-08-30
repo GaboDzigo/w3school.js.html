@@ -1,3 +1,1 @@
-let  x;
-x = 6;
-document.getElementById('demo').innerHTML = x;
+document.getElementById("demo").innerHTML = (5 + 6)  * 10 ;
