@@ -1,1 +1,4 @@
-document.getElementById("demo").innerHTML = (5 + 6)  * 10 ;
+let x , y;
+x = 5;
+y = 6;
+document.getElementById('demo').innerHTML = x + y;
