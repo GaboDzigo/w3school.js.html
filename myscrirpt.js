@@ -1,7 +1,6 @@
 /*
-The code below will change
-the heading with id = "myH"
-and the paragraph with id = "myP"
+document.getElementById("myH").innerHTML = "Welcome to my Homepage";
+document.getElementById("myP").innerHTML = "This is my first paragraph.";
 */
-document.getElementById('myH').innerHTML = "JavaScript Comments";
-document.getElementById('myP').innerHTML = "My first paragraph.";
+
+document.getElementById('myP').innerHTML = "The comment-block is not executed.";
