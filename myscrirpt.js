@@ -1,4 +1,4 @@
-let x , y ;
-x = 5 + 6 ;
-y = x * 10 ;
-document.getElementById('demo').innerHTML = y;
+let x ;
+x = 5;
+// x = 6 i will not be executed
+document.getElementById('demo').innerHTML = x;
