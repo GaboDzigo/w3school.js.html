@@ -1,3 +1,2 @@
-var carName = "Volvo";
-var carName;
-document.getElementById('demo').innerHTML = carName;
+let x = "john" + " " + "doe";
+document.getElementById('demo').innerHTML = x;
