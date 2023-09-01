@@ -1,4 +1,2 @@
-let person = "John Doe",
- carName = "Volvo",
- price = 200;
+let carName;
 document.getElementById('demo').innerHTML = carName;
