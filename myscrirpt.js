@@ -1,2 +1,2 @@
-let carName = "Volvo";
-document.getElementById('demo').innerHTML = carName;
+let x = 5 + 2 + 3;
+document.getElementById('demo').innerHTML = x;
