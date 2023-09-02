@@ -1,8 +1,10 @@
-try {
-  const car  = {type:"Fiat", model:"500", color:"white"};
-  car = {type:"Volvo", model:"EX60", color:"red" }
+const x = 10;
+// Here x is 10
+
+{
+  const x = 2;
+  // Here x is 2
 }
 
-catch (err) {
-  document.getElementById('demo').innerHTML = err;
-}
+// Here x is 10
+document.getElementById('demo').innerHTML = "x is " + x ;
