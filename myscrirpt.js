@@ -1,8 +1,12 @@
-try {
-const cars = ["Saab", "Volvo", "BMW"];
-cars = ["Toyota", "Volvo", "Audi"];
-}
+// Create an object:
+const car = {type:"Fiat", model:"500", color:"white"};
 
-catch (err) {
-  document.getElementById('demo').innerHTML = err;
-}
+// Change a property:
+car.color = "red";
+
+// Add a property:
+car.owner = "Johnson";
+
+
+// Display the property:
+document.getElementById('demo').innerHTML = "Car owner is " + car.owner;
