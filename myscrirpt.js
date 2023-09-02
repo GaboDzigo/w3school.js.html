@@ -1,9 +1,9 @@
-var x = 10;
+let x = 10;
 // Here x is 10
 {
-  var x = 2;
+  let x = 2;
   // Here x is 2
 }
 
-// Here x is 2
+// Here x is 10
 document.getElementById('demo').innerHTML = x;
