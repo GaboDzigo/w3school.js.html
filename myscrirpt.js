@@ -1,3 +1,9 @@
-let _x = 2;
-let _100 = 5;
-document.getElementById('demo').innerHTML = _x + _100 ;
+var x = 10;
+// Here x is 10
+{
+  var x = 2;
+  // Here x is 2
+}
+
+// Here x is 2
+document.getElementById('demo').innerHTML = x;
