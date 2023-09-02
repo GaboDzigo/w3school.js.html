@@ -1,11 +1,8 @@
-// Create an Array:
+try {
 const cars = ["Saab", "Volvo", "BMW"];
+cars = ["Toyota", "Volvo", "Audi"];
+}
 
-// Change an element:
-cars[0] = "Toyota";
-
-// Add an element:
-cars.push("Audi");
-
-// Display the Array:
-document.getElementById('demo').innerHTML = cars;
+catch (err) {
+  document.getElementById('demo').innerHTML = err;
+}
