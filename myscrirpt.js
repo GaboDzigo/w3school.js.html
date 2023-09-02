@@ -1,3 +1,8 @@
-carName = Volvo;
-document.getElementById('demo').innerHTML = carName ;
-var caName = volvo;
+try {
+   carName = Saab;
+   let carName = Volvo;
+}
+
+catch(err) {
+  document.getElementById('demo').innerHTML = carName;
+}
