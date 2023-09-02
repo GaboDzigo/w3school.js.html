@@ -1,6 +1,10 @@
-var x = 2;
-// Now x is 2
+let x = 2; // Allowed
 
-var x = 3;
-// Now x is 3
+{
+  let x =3; // Allowed
+}
+
+{
+  let x = 4; // Allowed
+}
 document.getElementById('demo').innerHTML = x;
