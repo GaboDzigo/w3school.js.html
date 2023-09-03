@@ -1,3 +1,3 @@
-let a  = 3;
-let x = (100 + 50) * a;
+var x = 10;
+x += 5;
 document.getElementById('demo').innerHTML = x;
