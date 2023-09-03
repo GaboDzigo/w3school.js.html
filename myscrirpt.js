@@ -1,4 +1,3 @@
-let a = 100;
-let b = 50;
-let x = a + b;
+let a = 3;
+let x = (100 + 50) * a;
 document.getElementById('demo').innerHTML = x;
