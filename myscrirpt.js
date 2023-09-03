@@ -1,4 +1,4 @@
-let text1 = "John";
-let text2 = "Doe";
-let text3 = text1 + " " + text2;
-document.getElementById('demo').innerHTML = text3;
+let x = 5+5;
+let y = "5" + 5;
+let z = "hello" + 5;
+document.getElementById('demo').innerHTML = x + "<br>" + y + "<br>" + z;
