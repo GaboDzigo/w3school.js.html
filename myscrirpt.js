@@ -1,8 +1,2 @@
-try {
-  alert(carName);
-  const carName = "Volvo";
-}
-
-catch(err) {
-  document.getElementById('demo').innerHTML = err;
-}
+let x = 10;
+document.getElementById('demo').innerHTML = x;
