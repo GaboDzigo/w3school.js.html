@@ -1,3 +1,3 @@
- let text = "hello";
- text += "World";
- document.getElementById("demo").innerHTML = text;
+let x = 10;
+x -= 5;
+document.getElementById('demo').innerHTML = "value of x is:" + x;
