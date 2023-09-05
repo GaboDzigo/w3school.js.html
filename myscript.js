@@ -1,3 +1,5 @@
-let x;      // Now x is undefined
-x = 5;      // Now x is a Number
-x = "John"; // Now x is a String
+let carName1 = "Volvo XC60";
+let carName2 = "Volvo XC60";
+document.getElementById('demo').innerHTML =
+carName1 + "<br>" +
+carName2;
