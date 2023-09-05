@@ -1,4 +1,3 @@
-let x1 = 34.00;
-let x2 = 34;
-let x3 = 3.14;
-document.getElementById('demo').innerHTML = x1 + "<br>" + x2 + "<br>" + x3;
+let y = 123e5;
+let z = 123e-5;
+document.getElementById('demo').innerHTML = y + "<br>" + z;
