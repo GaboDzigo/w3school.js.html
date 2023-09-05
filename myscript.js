@@ -1,2 +1,2 @@
-let x;
-document.getElementById("demo").innerHTML = x ??= 5;
+let x = "Volvo" + 16;
+document.getElementById('demo').innerHTML = x;
