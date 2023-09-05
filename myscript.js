@@ -1,2 +1,4 @@
-let x = BigInt("123456789012345678901234567890");
-document.getElementById('demo').innerHTML = x;
+let x = 5;
+let y = 5;
+let z = 5;
+document.getElementById('demo').innerHTML = (x == y) + "<br>" + (x == z);
