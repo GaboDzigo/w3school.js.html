@@ -1,5 +1,6 @@
-let car = "";
-document.getElementById('demo').innerHTML = 
-"The value is: " +
-car + "<br>" +
-"The type is: " + typeof car;
+function myFunction(p1,p2) {
+  return p1 * p2;
+}
+
+let result = myFunction(4 , 3);
+document.getElementById('demo').innerHTML = result;
