@@ -1,6 +1,6 @@
-function myFunction(p1,p2) {
-  return p1 * p2;
-}
+let x = myFunction(4 , 3);
+document.getElementById('demo').innerHTML = x;
 
-let result = myFunction(4 , 3);
-document.getElementById('demo').innerHTML = result;
+function myFunction(a , b){
+  return a * b;
+}
