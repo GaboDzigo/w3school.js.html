@@ -1,7 +1,11 @@
-let text = "The temperature is " + toCelsius(77) + " Celsius.";
-document.getElementById("demo").innerHTML = text;
+let text = "Outside: " + typeof carName;
+document.getElementById('demo1').innerHTML = text;
 
-function toCelsius(fahrenheit) {
-  return (5/9) * (fahrenheit-32);
+function myFunction() {
+  let carName = "Volvo";
+  let text = "Inside: " + typeof carName + " " + carName; 
+  document.getElementById('demo2').innerHTML = text;
 }
+myFunction();
 
+;
