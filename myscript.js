@@ -1,11 +1,5 @@
-let text = "Outside: " + typeof carName;
-document.getElementById('demo1').innerHTML = text;
+// Create an object:
+const car = {type:"fiat", model:"500", color:"white"};
 
-function myFunction() {
-  let carName = "Volvo";
-  let text = "Inside: " + typeof carName + " " + carName; 
-  document.getElementById('demo2').innerHTML = text;
-}
-myFunction();
-
-;
+// Display some data from the object:
+document.getElementById('demo').innerHTML = "this car type is:" + car.type;
