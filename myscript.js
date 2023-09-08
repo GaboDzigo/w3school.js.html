@@ -1,5 +1,5 @@
 // Create an object:
-const car = {type:"fiat", model:"500", color:"white"};
-
+const person = {firstName:"John", lastName:"Doe", age:"50", eyecolor:"blue"}
 // Display some data from the object:
-document.getElementById('demo').innerHTML = "this car type is:" + car.type;
+document.getElementById('demo').innerHTML =
+person.firstName + " is " + person.age + " years old.";
