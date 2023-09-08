@@ -7,4 +7,4 @@ const person = {
 
 // Display some data from the object:
 document.getElementById('demo').innerHTML = 
-person.firstName + " " + person.lastName;
+person["firstName"] + " " + person["lastName"];
