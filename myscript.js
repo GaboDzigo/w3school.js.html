@@ -1,10 +1,12 @@
 // Create an object:
 const person = {
-  firstName:  "John",
-  lastName:   "Doe",
-  id:         "5566"
+  firstName: "John",
+  lastName: "Doe",
+  id: "5566",
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
 };
 
-// Display some data from the object:
-document.getElementById('demo').innerHTML = 
-person["firstName"] + " " + person["lastName"];
+// Display data from the object:
+document.getElementById('demo').innerHTML = person.fullName;
