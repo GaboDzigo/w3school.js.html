@@ -1,2 +1,2 @@
-let text = "We are the so-called \"Vikings\" from the north.";
+let text = 'It\'s alright.';
 document.getElementById('demo').innerHTML = text;
