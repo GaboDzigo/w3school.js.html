@@ -1,2 +1,4 @@
-let text = "John Doe"; // String written inside quotes
-document.getElementById('demo').innerHTML = text;
+let carName1 = "Volvo XC60" // Double quotes
+let carName2 = 'Volvo XC60' // Single quotes
+document.getElementById('demo').innerHTML =
+carName1 + " " + carName2;
