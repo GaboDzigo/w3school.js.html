@@ -1,2 +1,2 @@
-let text = 'It\'s alright.';
+let text = "The character \\ is called backslash.";
 document.getElementById('demo').innerHTML = text;
