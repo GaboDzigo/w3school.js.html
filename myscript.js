@@ -1,2 +1,2 @@
-document.getElementById('demo').innerHTML = "Hello" +
-"Dolly!.";
+document.getElementById('demo').innerHTML = /
+"Hello Dolly!."
