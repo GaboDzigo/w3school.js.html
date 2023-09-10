@@ -1,2 +1,2 @@
-let str = "Apple,banana,kiwi"
-document.getElementById('kiwi').innerHTML = strsubstr(7,6);
+let str = "Apple, Banana, Kiwi";
+document.getElementById('demo').innerHTML =str.substring(7);
