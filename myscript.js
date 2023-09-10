@@ -1,2 +1,3 @@
-let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-document.getElementById('demo').innerHTML = text.length;
+let text = "Apple,Banana,Kiwi"
+let part = text.slice(-12, -6)
+document.getElementById('demo').innerHTML = part;
