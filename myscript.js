@@ -1,3 +1,2 @@
-let text = "Apple,Banana,Kiwi"
-let part = text.slice(-12, -6)
-document.getElementById('demo').innerHTML = part;
+let str = "Apple,Banana,Kiwi";
+document.getElementById('demo').innerHTML = str.substring(7,13);
