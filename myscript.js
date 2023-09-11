@@ -1,5 +1,5 @@
 function myFunction() {
   let text = document.getElementById('demo').innerHTML;
   document.getElementById('demo').innerHTML = 
-  text.replace("Microsoft","W3Schools");
+  text.replace(/MICROSOFT/i,"W3Schools");
 }
