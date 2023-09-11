@@ -1,2 +1,5 @@
-let str = "Apple, Banana, Kiwi";
-document.getElementById('demo').innerHTML = str.substr(-4)
+function myFunction() {
+  let text = document.getElementById('demo').innerHTML;
+  document.getElementById('demo').innerHTML = 
+  text.replace("Microsoft","W3Schools");
+}
