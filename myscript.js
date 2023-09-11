@@ -1,2 +1,2 @@
 let str = "Apple, Banana, Kiwi";
-document.getElementById('demo').innerHTML =str.substring(7);
+document.getElementById('demo').innerHTML = str.substr(-4)
