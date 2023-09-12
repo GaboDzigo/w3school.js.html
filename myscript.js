@@ -1,4 +1,2 @@
-let text = "5";
-text = text.padEnd(4,"0");
-
-document.getElementById('demo').innerHTML = text;
+let text = "HELLO WORLD";
+document.getElementById('demo').innerHTML = text[0];
