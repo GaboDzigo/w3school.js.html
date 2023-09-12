@@ -1,2 +1,4 @@
 let text = "5";
-document.getElementById('demo').innerHTML = text.padStart(4,"x");
+text = text.padEnd(4,"0");
+
+document.getElementById('demo').innerHTML = text;
