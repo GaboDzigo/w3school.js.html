@@ -1,4 +1,3 @@
-let text = "HELLO WORLD"
-
-text[0] = "A"; // Does not work
-document.getElementById('demo').innerHTML = text;
+let text = "a,b,c,d,e,f";
+const myArray = text.split(",");
+document.getElementById('demo').innerHTML = myArray[0];
