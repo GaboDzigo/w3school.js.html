@@ -1,3 +1,3 @@
-let text = "Please locate where 'locate' occurs!";
-let index = text.search(/locate/)
-document.getElementById('demo').innerHTML = index;
+let text = "The rain in SPAIN stays mainly in the plain";
+const myArr = text.match("ain");
+document.getElementById('demo').innerHTML = myArr.length + " " + myArr;
