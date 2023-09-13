@@ -1,2 +1,3 @@
 let text = "Please locate where 'locate' occurs!";
-let index = text.lastIndexOf("locate")
+let index = text.indexOf("John");
+document.getElementById('demo').innerHTML = index;
