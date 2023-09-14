@@ -1,3 +1,4 @@
-let text = "The rain in SPAIN stays mainly in the plain";
-const myArr = text.match(/ain/gi);
-document.getElementById('demo').innerHTML = myArr.length + " " + myArr;
+let text = "I love cats. Cats are very easy to love. Cats are very popular."
+const iterator = text.matchAll("Cats");
+
+document.getElementById('demo').innerHTML = Array.from(iterator);
