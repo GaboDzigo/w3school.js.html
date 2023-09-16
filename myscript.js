@@ -1,2 +1,2 @@
-let text = "Hello world, welcome to the universe.";
-document.getElementById('demo').innerHTML = text.startsWith("world", 6);
+let text = "John Doe";
+document.getElementById('demo').innerHTML = text.endsWith("Doe");
