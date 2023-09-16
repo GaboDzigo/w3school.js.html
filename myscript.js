@@ -1,7 +1,6 @@
-let text = 
-`The quick
-brown fox
-jumps over
-the lazy dog`;
+let firstName = "John";
+let lastName = "Doe";
+
+let text = `Welcome ${firstName},${lastName}!`;
 
 document.getElementById('demo').innerHTML = text;
