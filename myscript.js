@@ -1,3 +1,3 @@
-let x = 123e5;
-let y = 123e-5;
-document.getElementById('demo').innerHTML = x + "<br>" + y;
+let x = 999999999999999;
+let y = 9999999999999990;
+document.getElementById('demo').innerHTML = x +"<br>" + y;
