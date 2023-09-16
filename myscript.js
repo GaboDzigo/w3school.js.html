@@ -1,6 +1,4 @@
-let firstName = "John";
-let lastName = "Doe";
-
-let text = `Welcome ${firstName},${lastName}!`;
-
-document.getElementById('demo').innerHTML = text;
+let price = 10;
+let VAT = 0.25;
+let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
+document.getElementById('demo').innerHTML = total;
