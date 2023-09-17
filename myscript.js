@@ -1,3 +1,4 @@
-let x = 999999999999999;
-let y = 9999999999999999;
-document.getElementById('demo').innerHTML = x +"<br>" + y;
+let x = 10;
+let y = 20;
+let z = x + y;
+document.getElementById('demo').innerHTML = z;
