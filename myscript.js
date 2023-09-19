@@ -1,4 +1,4 @@
-let x = 10;
-let y = 20;
-document.getElementById('demo').innerHTML =
-"THe result is:" + x + y;
+let x = "100";
+let y = "10";
+let z = x / y;
+document.getElementById('demo').innerHTML = z;
