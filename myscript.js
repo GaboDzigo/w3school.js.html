@@ -1,1 +1,1 @@
-document.getElementById('demo').innerHTML = 100/"Apple";
+document.getElementById('demo').innerHTML = 100 / "10";
