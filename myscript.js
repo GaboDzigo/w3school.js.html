@@ -1,2 +1,2 @@
 let x = NaN;
-document.getElementById('demo').innerHTML = x;
+document.getElementById('demo').innerHTML = typeof x;
