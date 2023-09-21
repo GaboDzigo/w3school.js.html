@@ -1,2 +1,7 @@
-let x = NaN;
-document.getElementById('demo').innerHTML = typeof x;
+let myNumber = 2;
+let txt = " ";
+while(myNumber != Infinity) {
+  myNumber = myNumber * myNumber
+  txt = txt + myNumber + "<br>"
+}
+document.getElementById('demo').innerHTML = txt;
