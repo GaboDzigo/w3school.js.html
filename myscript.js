@@ -1,2 +1,3 @@
-let x = 100 / "Apple";
-document.getElementById('demo').innerHTML = isNaN(x);
+let x = NaN;
+let y = 5;
+document.getElementById('demo').innerHTML = x + y;
