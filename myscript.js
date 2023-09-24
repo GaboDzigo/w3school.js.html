@@ -1,2 +1,2 @@
-let x = Number.MIN_SAFE_INTEGER;
-document.getElementById('demo').innerHTML = x;
+document.getElementById('demo').innerHTML = 
+Number.isInteger(10) + "<br>"  + Number.isInteger(10.5);
