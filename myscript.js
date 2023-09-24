@@ -1,6 +1,11 @@
-let x = 123;
-
-document.getElementById('demo').innerHTML = 
-x.valueOf() +  "<br>" +
-(123).valueOf() +  "<br>" +
-(100 + 23).valueOf();
+document.getElementById('demo').innerHTML =
+Number(true) + "<br>" +
+Number(false) + "<br>" +
+Number("10") + "<br>" +
+Number(" 10") + "<br>" +
+Number("10 ") + "<br>" +
+Number(" 10 ") + "<br>" +
+Number("10.33") + "<br>" +
+Number("10,33") + "<br>" +
+Number("10 33") + "<br>" +
+Number("John");
