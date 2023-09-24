@@ -1,11 +1,2 @@
-document.getElementById('demo').innerHTML =
-Number(true) + "<br>" +
-Number(false) + "<br>" +
-Number("10") + "<br>" +
-Number(" 10") + "<br>" +
-Number("10 ") + "<br>" +
-Number(" 10 ") + "<br>" +
-Number("10.33") + "<br>" +
-Number("10,33") + "<br>" +
-Number("10 33") + "<br>" +
-Number("John");
+let x = new Date("1970-01-01")
+document.getElementById('demo').innerHTML = Number(x);
