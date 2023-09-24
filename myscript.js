@@ -1,2 +1,4 @@
-document.getElementById('demo').innerHTML =
-Number.isSafeInteger(10) + "<br>" + Number.isSafeInteger(12345678901234567890);
+let x = 123;
+document.getElementById('demo').innerHTML = 
+ x.toString() + "<br>" + (123).toString() + "<br>"
+ +  (100 + 23).toString();
