@@ -1,4 +1,3 @@
-let x = 9007199254740995n;
-let y = 9007199254740995n;
-let z = x * y;
-document.getElementById('demo').innerHTML = z;``
+let x = 5n;
+let y = Number(x) / 2;
+document.getElementById('demo').innerHTML =y;
