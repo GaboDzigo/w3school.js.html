@@ -1,2 +1,2 @@
-let x = Number.MAX_SAFE_INTEGER;
+let x = Number.MIN_SAFE_INTEGER;
 document.getElementById('demo').innerHTML = x;
