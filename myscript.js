@@ -1,2 +1,4 @@
-let x = ("9999999999999999");
-document.getElementById('demo').innerHTML = typeof x;
+let x = 9007199254740995n;
+let y = 9007199254740995n;
+let z = x + y;
+document.getElementById('demo').innerHTML = z;
