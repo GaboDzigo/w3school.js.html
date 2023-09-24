@@ -1,2 +1,2 @@
-document.getElementById('demo').innerHTML = 
-Number.isInteger(10) + "<br>"  + Number.isInteger(10.5);
+document.getElementById('demo').innerHTML =
+Number.isSafeInteger(10) + "<br>" + Number.isSafeInteger(12345678901234567890);
