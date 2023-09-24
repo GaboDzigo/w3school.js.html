@@ -1,4 +1,6 @@
-let x = 123;
+let x = 9.656;
 document.getElementById('demo').innerHTML = 
- x.toString() + "<br>" + (123).toString() + "<br>"
- +  (100 + 23).toString();
+x.toExponential() + "<br>" +
+x.toExponential(2) + "<br>" +
+x.toExponential(4) + "<br>" +
+x.toExponential(6);
