@@ -1,2 +1,2 @@
-let x = 9007199254740992 === 9007199254740993;
+let x = Number.MAX_SAFE_INTEGER;
 document.getElementById('demo').innerHTML = x;
