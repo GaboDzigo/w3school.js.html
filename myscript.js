@@ -1,4 +1,2 @@
-let hex = 0x20000000000003n;
-let oct = 0o400000000000000003n;
-let bin = 0b100000000000000000000000000000000000000000000000000011n;
-document.getElementById('demo').innerHTML = hex + "<br>" + oct + "<br>" + bin;
+let x = 9007199254740992 === 9007199254740993;
+document.getElementById('demo').innerHTML = x;
