@@ -1,2 +1,8 @@
-let x  = new Date("1970-01-02");
-document.getElementById('demo').innerHTML = Number(x);
+document.getElementById('demo').innerHTML =
+parseInt("-10") + "<br>" +
+parseInt("-10.33") + "<br>" +
+parseInt("10") + "<br>" +
+parseInt("10.33") + "<br>" +
+parseInt("10 6") + "<br>" +
+parseInt("10 years") + "<br>" +
+parseInt("years 10") ;
