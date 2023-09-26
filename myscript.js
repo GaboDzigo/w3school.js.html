@@ -1,6 +1,8 @@
-document.getElementById("demo").innerHTML = 
-Number.parseFloat("10") + "<br>" + 
-Number.parseFloat("10.33") + "<br>" + 
-Number.parseFloat("10 20 30") + "<br>" + 
-Number.parseFloat("10 years") + "<br>" + 
-Number.parseFloat("years 10");
+document.getElementById('demo').innerHTML = 
+Number.parseInt("-10") + "<br>" +
+Number.parseInt("-10.33") + "<br>" +
+Number.parseInt("10") + "<br>" +
+Number.parseInt("10.33") + "<br>" +
+Number.parseInt("10 6") + "<br>" +
+Number.parseInt("10 years") + "<br>" +
+Number.parseInt("years 10");
