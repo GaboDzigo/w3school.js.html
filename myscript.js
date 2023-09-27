@@ -1,2 +1,2 @@
-const person = ["John", "Doe", 46];
-document.getElementById('demo').innerHTML = person[0];
+const person = {firstName:"John", lastName:"Doe", Age:46};
+document.getElementById('demo').innerHTML = person.firstName;
