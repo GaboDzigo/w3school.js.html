@@ -1,3 +1,2 @@
-let fruits =  ["Banana", "Orange","Apple","Mango"];
-let size = fruits.length;
-document.getElementById('demo').innerHTML = size;
+const fruits = ["Banana", "Orange", "Apple"]
+document.getElementById('demo').innerHTML = fruits[0]
