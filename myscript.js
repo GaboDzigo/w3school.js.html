@@ -1,5 +1,2 @@
-const cars = [];
-cars[0] = "Saab"
-cars[1] = "Volvo";
-cars[2] = "BMW";
+const cars = new Array("Saab", "Volvo", "BMW");
 document.getElementById('demo').innerHTML = cars;
