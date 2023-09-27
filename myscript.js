@@ -1,2 +1,3 @@
-const cars = ["Saab","Volvo","BMW"]
-document.getElementById('demo').innerHTML = cars[0];
+const cars = ["Saab","Volvo","BMW"];
+cars[0] = "Opel";
+document.getElementById('demo').innerHTML = cars;
