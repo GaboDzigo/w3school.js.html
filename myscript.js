@@ -1,2 +1,2 @@
 const cars = ["Saab", "Volvo", "BMW"];
-document.getElementById('demo').innerHTML
+document.getElementById('demo').innerHTML = cars;
