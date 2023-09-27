@@ -1,2 +1,2 @@
-const fruit = ["Banana", "Orange", "Apple", "Mango"];
-document.getElementById('demo').innerHTML = fruits.toSrting();
+const cars = ["Saab","Volvo","BMW"];
+document.getElementById('demo').innerHTML =  cars;
