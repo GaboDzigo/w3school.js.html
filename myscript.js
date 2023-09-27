@@ -1,2 +1,2 @@
-const fruits = ["Banana", "Orange", "Apple"]
-document.getElementById('demo').innerHTML = fruits[0]
+const fruits = ["Banana","Orange","Apple","Mango"];
+document.getElementById('demo').innerHTML = fruits[frunits.length-1]
