@@ -1,2 +1,5 @@
-const cars = ["Saab", "Volvo", "BMW"];
-document.getElementById('demo').innerHTML = cars;
+const cars = [
+  "Saab",
+  "Volvo",
+  "BMW"
+];
