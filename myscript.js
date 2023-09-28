@@ -1,2 +1,2 @@
-var points  = [40];
-document.getElementById('demo').innerHTML = points;
+var points = new Array(40);
+document.getElementById('demo').innerHTML = points[0];
