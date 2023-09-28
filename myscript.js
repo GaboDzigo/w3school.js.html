@@ -1,2 +1,2 @@
-const fruits = ["Banana","Orange","Apple"];
-document.getElementById('demo').innerHTML = Array.isArray(fruits);
+var fruits = ["Banana","Orange","Apple"];
+document.getElementById('demo').innerHTML = fruits instanceof Array;
