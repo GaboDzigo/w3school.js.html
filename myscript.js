@@ -1,10 +1,6 @@
-const fruits = ["Banana","Orange","Apple","Mango"];
-fruits[6] = "Lemon";
-
-let flen = fruits.length;
-let text = "";
-for (i = 0; i < flen; i++) {
-  text +=fruits[1] + "<br>";
-}
-
-document.getElementById('demo').innerHTML = text;
+const person = [];
+person[0] = "John";
+person[1] = "Doe";
+person[2] = 46;
+document.getElementById('demo').innerHTML = 
+person[0] + " " + person.length;
