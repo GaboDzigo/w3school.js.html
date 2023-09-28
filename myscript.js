@@ -1,11 +1,10 @@
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const fruits = ["Banana","Orange","Apple","Mango"];
+fruits[6] = "Lemon";
 
-let text = "<ul>";
-fruits.forEach(myFunction);
-text += "</ul>"
+let flen = fruits.length;
+let text = "";
+for (i = 0; i < flen; i++) {
+  text +=fruits[1] + "<br>";
+}
 
 document.getElementById('demo').innerHTML = text;
-
-function myFunction(value) {
-  text += "<li>" + value + "</li>";
-}
