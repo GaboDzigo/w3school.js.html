@@ -1,2 +1,2 @@
-const fruits = ["Banana","Orange","Apple","Mango"];
-document.getElementById('demo').innerHTML = typeof fruits;
+const fruits = ["Banana","Orange","Apple"];
+document.getElementById('demo').innerHTML = Array.isArray(fruits);
