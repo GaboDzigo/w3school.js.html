@@ -1,6 +1,3 @@
-const person = [];
-person["firstName"] = "John";
-person["lastName"] = "Doe";
-person["Age"] = 46;
-document.getElementById('demo').innerHTML =
-person[0] + " " + person.length;
+//const points = new Array(40, 100, 1, 5, 25, 10);
+const ponits = [40, 100, 1, 5, 25, 10];
+document.getElementById('demo').innerHTML = points[0];
