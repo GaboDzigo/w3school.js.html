@@ -1,2 +1,2 @@
-var points = new Array(40);
-document.getElementById('demo').innerHTML = points[0];
+const fruits = ["Banana","Orange","Apple","Mango"];
+document.getElementById('demo').innerHTML = typeof fruits;
