@@ -1,4 +1,4 @@
-const fruits = ["Banana","Orange","Apple","Mango"];
-document.getElementById('demo1').innerHTML = fruits;
-fruits.unshift("Lemon");
-document.getElementById('demo2').innerHTML = fruits;
+const fruits =v["Banana","Orange","Apple","Mango"];
+document.getElementById('demo').innerHTML = fruits;
+fruits.unshift("melon");
+document.getElementById('demo').innerHTML = fruits;
