@@ -1,3 +1,4 @@
 const fruits = ["Banana","Orange","Apple","Mango"];
-document.getElementById('demo').innerHTML = fruits.pop();
-document.getElementById('demo').innerHTML = fruits;
+document.getElementById('demo1').innerHTML = fruits;
+fruits.push("Kiwi");
+document.getElementById('demo2').innerHTML = fruits;
