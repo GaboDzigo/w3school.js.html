@@ -1,3 +1,4 @@
-const fruits = ["Banana","Orange","Apple","Mango"];
-document.getElementById('demo').innerHTML = fruits.unshift("Lemon");
-document.getElementById('demo').innerHTML = fruits;
+const fruits = ["Banana","Orange","Apple","Mang"];
+document.getElementById('demo1').innerHTML = fruits;
+fruits[0] = "Kiwi";
+document.getElementById('demo2').innerHTML = fruits;
