@@ -1,4 +1,4 @@
-const fruits = ["Banana","Orange","Apple","Mang"];
+const fruits = ["Banana","Orange","Apple","Mango"];
 document.getElementById('demo1').innerHTML = fruits;
-fruits[0] = "Kiwi";
+fruits[fruits.length] = "Kiwi";
 document.getElementById('demo2').innerHTML = fruits;
