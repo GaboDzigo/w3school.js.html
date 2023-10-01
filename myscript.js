@@ -1,3 +1,4 @@
-const myArray = ["Emil","Tobias","Linus"];
-const myChildren = myArray.concat("Peter");
-document.getElementById('demo').innerHTML = myChildren;
+const myArr = [[1,2],[3,4],[5,6]];
+ const newArr = myArr.Flat();
+ document.getElementById('demo').innerHTML = newArr;
+ 
