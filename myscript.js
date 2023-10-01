@@ -1,4 +1,5 @@
-const myArr = [[1,2],[3,4],[5,6]];
- const newArr = myArr.Flat();
- document.getElementById('demo').innerHTML = newArr;
- 
+const fruits = ["Banana","Orange","Apple","Mango"];
+document.getElementById('demo1').innerHTML = fruits;
+
+fruits.splice(2, 0, "Lemon","Kiwi");
+document.getElementById('demo2').innerHTML = fruits;
