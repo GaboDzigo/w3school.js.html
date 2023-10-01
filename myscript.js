@@ -1,5 +1,4 @@
 const fruits = ["Banana","Orange","Apple","Mango"];
-document.getElementById('demo').innerHTML = "Original Array:<br> "  + fruits;
-let removed = fruits.splice(2, 2, "Lemon","Kiwi");
-document.getElementById('demo').innerHTML = "New Array:<br> "  + fruits;
-document.getElementById('demo').innerHTML = "Removed Items:<br> "  + removed;
+document.getElementById('demo1').innerHTML = fruits;
+fruits.splice(0,1);
+document.getElementById('demo2').innerHTML = fruits;
