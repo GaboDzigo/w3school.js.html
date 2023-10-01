@@ -1,3 +1,3 @@
-const fruits = ["Banana","Orange","Apple","Mango"];
-const citrus = fruits.slice(1,3);
+const fruits = ["Banna","Orange","Apple","Mango"];
+const citrus = fruit.slice(2);
 document.getElementById('demo').innerHTML = fruits + "<br><br>" + citrus;
