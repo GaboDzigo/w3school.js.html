@@ -1,6 +1,6 @@
 const points = [40,100,1,5,25,10];
-document.getElementById('demo').innerHTML = MyArrayMax(points);
+document.getElementById('demo').innerHTML = myArraymin(points);
 
-function MyArrayMax(arr) {
-  return Math.max.apply(null, arr);
+function myArraymin() {
+  return  Math.min.apply(null,arr);
 }
