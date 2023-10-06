@@ -1,13 +1,13 @@
 const points = [40,100,1,5,25,10];
-document.getElementById('demo').innerHTML= myArrayMax(points);
+document.getElementById('demo').innerHTML = myArrayMin(points);
 
-function myArrayMax(arr) {
-  let len = arr.length;
-  let max = -Infinity;
-  while (len--) {
-    if (arr[len] > max) {
-      max = arr[len];
-    }
+function myArrayMin(arr){
+let len = arr.length;
+let min = Infinity;
+while (len--) {
+  if (arr[len] > min ) {
+    min = arr[len];
   }
-  return max;
+}
+return  min;
 }
