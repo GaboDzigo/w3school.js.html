@@ -1,25 +1,36 @@
-const cars = [
-  {type:"Volvo", year:2016},
-  {type:"Saab", year:2001},
-  {type:"BMW", year:2010}
+const myArr = [
+  {name:"X00",price:100 },
+  {name:"X01",price:100 },
+  {name:"X02",price:100 },
+  {name:"X03",price:100 },
+  {name:"X04",price:110 },
+  {name:"X05",price:110 },
+  {name:"X06",price:110 },
+  {name:"X07",price:110 },
+  {name:"X08",price:120 },
+  {name:"X09",price:120 },
+  {name:"X10",price:120 },
+  {name:"X11",price:120 },
+  {name:"X12",price:130 },
+  {name:"X13",price:130 },
+  {name:"X14",price:130 },
+  {name:"X15",price:130 },
+  {name:"X16",price:140 },
+  {name:"X17",price:140 },
+  {name:"X18",price:140 },
+  {name:"X19",price:140 }
 ];
 
-displayCars();
+myArr.sort ( (p1,p2) => {
+  if (p1.price < p2.price) return -1
+  if (p1.price > p2.price) return 1
+ return 0;
+});
 
-function myFunction() {
-  cars.sort(function(a, b){
-    let x = a.type.toLowerCase();
-    let y = b.type.toLowerCase();
-    if (x < y) {return -1;}
-    if (x > y) {return 1;}
-    return 0;
-  });
-  displayCars();
-}
+let txt = "";
+myArr.forEach(myFunction);
 
-function displayCars() {
-  document.getElementById("demo").innerHTML =
-  cars[0].type + " " + cars[0].year + "<br>" +
-  cars[1].type + " " + cars[1].year + "<br>" +
-  cars[2].type + " " + cars[2].year;
+function myFunction(value) {
+  txt += value.name + " " +  value.price + "<br>";
 }
+document.getElementById('demo').innerHTML = txt;
