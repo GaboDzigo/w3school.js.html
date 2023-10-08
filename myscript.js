@@ -1,3 +1,8 @@
-const myArr = [1,2,3,4,5,6];
-const newArr = myArr.flatmap((x)=>  x*2);
-document.getElementById("demo").innerHTML = newArr;
+const numbers = [45,4,9,16,25]
+const over18 = numbers.filter(myFunction);
+
+document.getElementById('demo').innerHTML = over18;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
