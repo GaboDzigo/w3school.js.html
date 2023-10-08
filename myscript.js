@@ -1,8 +1,3 @@
-const numbers1 = [45,4,9,16,25];
-const numbers2 = numbers1.map(myFunction);
-
-document.getElementById('demo').innerHTML = numbers2;
-
-function myFunction(value) {
-  return value *2;
-}
+const myArr = [1,2,3,4,5,6];
+const newArr = myArr.flatmap((x)=>  x*2);
+document.getElementById("demo").innerHTML = newArr;
