@@ -1,8 +1,9 @@
-const numbers = [45,4,9,16,25]
-const over18 = numbers.filter(myFunction);
+const numbers = [45, 4, 9, 16, 25];
+const over18 =  numbers.filter(myFunction);
 
-document.getElementById('demo').innerHTML = over18;
+document.getElementById("demo").innerHTML = over18;
 
-function myFunction(value, index, array) {
+function myFunction(value) {
   return value > 18;
 }
+
