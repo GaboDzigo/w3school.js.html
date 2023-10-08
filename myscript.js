@@ -1,9 +1,9 @@
 const numbers = [45, 4, 9, 16, 25];
-const over18 =  numbers.filter(myFunction);
+let sum = numbers.reduce(myFunction);
 
-document.getElementById("demo").innerHTML = over18;
+document.getElementById('demo').innerHTML = "The sum is" + sum;
 
-function myFunction(value) {
-  return value > 18;
+function myFunction(total, value, index, array) {
+  return total + value;
 }
 
