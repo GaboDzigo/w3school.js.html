@@ -1,9 +1,7 @@
-const numbers = [45 , 4 ,9,16,25];
+const numbers1 = [45,4,9,16,25];
+const numbers2 = numbers.map(myFunction);
 
-let txt = " ";
-numbers.forEach(myFunction);
-document.getElementById('demo').innerHTML = txt;
-
-function myFunction(value) {
-  txt += value + "<br>";
-}
+document.getElementById('demo').innerHTML = numbers2;
+ function myFunction(value,index,array) {
+  return value *2;
+ }
