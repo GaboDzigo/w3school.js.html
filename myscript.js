@@ -1,8 +1,7 @@
 const numbers = [45,4,9,16,25];
-let sum = numbers.reduce(myFunction, 100);
-
-document.getElementById('demo').innerHTML = "The sum is " + sum;
-
-function myFunction(total, value) {
-  return total + value
+let sum = numbers.reduceRight(myFunction);
+document.getElementById('demo').innerHTML = "the sum is " + sum;
+ 
+function myFunction(total, value, index, array) {
+ return total + value;
 }
