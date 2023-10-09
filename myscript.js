@@ -1,8 +1,8 @@
 const numbers = [45,4,9,16,25];
-const allOver18 = numbers.every(myFunction);
+const someOver18 =  numbers.some(myFunction);
 
-document.getElementById('demo').innerHTML = "All over 18 is " + allOver18;
+document.getElementById('demo').innerHTML = "Some is over 18 " + someOver18;
 
-function myFunction(value,index,array) {
-return value > 18;
+function myFunction(value, index,array) {
+  return value > 18;
 }
