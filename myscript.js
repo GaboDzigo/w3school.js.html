@@ -1,4 +1,4 @@
 const fruits = ["Apple","Orange","Apple","Mango"];
-const position = fruits.indexOf("Apple") + 1;
+let position =  fruits.lastIndexOf("Apple") + 1;
 
-document.getElementById('demo').innerHTML = "Apple is found in position " + position;
+document.getElementById('demo').innerHTML = "Apple found in position" + position;
