@@ -1,4 +1,8 @@
-const fruits = ["Apple","Orange","Apple","Mango"];
-let position =  fruits.lastIndexOf("Apple") + 1;
+const numbers = [4,9,16,25,29];
+const first = numbers.find(myFunction);
 
-document.getElementById('demo').innerHTML = "Apple found in position" + position;
+document.getElementById('demo').innerHTML = "First number over 18 is " + first;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
