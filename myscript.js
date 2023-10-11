@@ -1,2 +1,9 @@
-const myArr = Array.from("ABCDEFG")
-document.getElementById('demo').innerHTML = myArr;
+const fruits = ["Banana","Orange","Apple","Mango"];
+const keys = fruits.keys();
+
+let text = " ";
+for (let x of keys) {
+  text +=  x + "<br>";
+}
+
+document.getElementById('demo').innerHTML = text;
