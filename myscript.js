@@ -1,8 +1,2 @@
-const numbers = [4,9,16,25,29];
-const first = numbers.find(myFunction);
-
-document.getElementById('demo').innerHTML = "First number over 18 is " + first;
-
-function myFunction(value, index, array) {
-  return value > 18;
-}
+const myArr = Array.from("ABCDEFG")
+document.getElementById('demo').innerHTML = myArr;
