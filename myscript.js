@@ -1,2 +1,2 @@
-document.getElementById('demo').innerHTML = 
-new Date("2015-03-25T12:00:00-06:00");
+const d = new Date("03/25/2015");
+document.getElementById('demo').innerHTML = d;
