@@ -1,2 +1,3 @@
-const msec = Date.parse("March 21 2012");
-document.getElementById('demo').innerHTML = msec;
+let msec = new Date("March 21 2012");
+const d = new Date(msec);
+document.getElementById('demo').innerHTML = d;
