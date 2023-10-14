@@ -1,2 +1,2 @@
 const d = new Date();
-document.getElementById('demo').innerHTML = d.toUTCString();
+document.getElementById('demo').innerHTML = d.toISOString();
