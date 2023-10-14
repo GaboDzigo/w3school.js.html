@@ -1,2 +1,2 @@
-const d = new Date(2018,11,24,10);
+const d = new Date(2018,11);
 document.getElementById('demo').innerHTML = d;
