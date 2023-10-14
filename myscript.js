@@ -1,2 +1,2 @@
-const d = new Date("2022-03-25");
+const d = new Date();
 document.getElementById('demo').innerHTML = d;
