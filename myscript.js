@@ -1,2 +1,2 @@
-const d = new Date();
-document.getElementById('demo').innerHTML  = d.getMinutes();
+const d = new Date("2021-03-25");
+document.getElementById('demo').innerHTML = d;
