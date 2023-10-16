@@ -1,5 +1,2 @@
-const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-
-const d = new Date();
-let day = days[d.getDay()];
-document.getElementById('demo').innerHTML = day;
+const d = new Date("1970-01-01")
+document.getElementById('demo').innerHTML = d.getTime();
