@@ -1,2 +1,2 @@
-const d = new Date("1970-01-01")
+const d = new Date();
 document.getElementById('demo').innerHTML = d.getTime();
