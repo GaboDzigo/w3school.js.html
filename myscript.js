@@ -1,5 +1,5 @@
-const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Saturday"]
+const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 
-const d = new Date("2021-03-25");
-let day = day[d.getDay()];
+const d = new Date();
+let day = days[d.getDay()];
 document.getElementById('demo').innerHTML = day;
