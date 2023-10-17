@@ -1,2 +1,3 @@
 const d = new Date();
-document.getElementById("demo").innerHTML = d.getTimezoneOffset();
+d.setFullYear(2020);
+document.getElementById().innerHTML = d;
