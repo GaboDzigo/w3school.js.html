@@ -1,3 +1,3 @@
 const d = new Date();
-d.setFullYear(2020,11,3);
+d.setFullYear(11)
 document.getElementById('demo').innerHTML = d;
