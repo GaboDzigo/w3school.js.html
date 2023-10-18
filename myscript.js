@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = Math.ceil(4.4);
+document.getElementById("demo").innerHTML = Math.floor(4.7);
