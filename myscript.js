@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = Math.round(4.5);
+document.getElementById("demo").innerHTML = Math.ceil(4.4);
