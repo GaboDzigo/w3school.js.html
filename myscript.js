@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = Math.floor(4.7);
+document.getElementById("demo").innerHTML = Math.trunc(4.7);
