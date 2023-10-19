@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = math.sign(4);
+document.getElementById("demo").innerHTML = Math.sqrt(64);
