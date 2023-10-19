@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = Math.log(10);
+document.getElementById("demo").innerHTML = Math.log2(8);
