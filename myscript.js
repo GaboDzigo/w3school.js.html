@@ -1,7 +1,4 @@
-// x is a boolean
-let x = false;
+ let x = false;// x is a boolean
+  let y = new Boolean(false);// y is an object
 
-// y is an object
-let y = new Boolean(false);
-
-document.getElementById("demo").innerHTML = typeof  x + "<br>" + typeof  y;
+  document.getElementById("demo").innerHTML = (x==y);
