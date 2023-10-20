@@ -1,1 +1,2 @@
-document.getElementById("demo").innerHTML = 10 > 9;
+let x = 0;
+document.getElementById("demo").innerHTML = Boolean(x);
