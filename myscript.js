@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = Booleans(10 > 9);
+document.getElementById("demo").innerHTML = 10 > 9;
