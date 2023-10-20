@@ -1,1 +1,2 @@
-document.getElementById("demo").innerHTML = Math.log10(1000);
+document.getElementById("demo").innerHTML =
+Math.floor(Math.random() * 10);
