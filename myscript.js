@@ -1,2 +1,2 @@
-document.getElementById("demo").innerHTML =
-Math.floor(Math.random() * 101);
+document.getElementById("demo").innerHTML = 
+Math.random(Math.random() * 10 ) +1;
