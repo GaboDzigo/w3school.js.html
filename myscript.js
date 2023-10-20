@@ -1,2 +1,2 @@
-let x = " ";
-document.getElementById("demo").innerHTML = Boolean(" ");
+let x;
+document.getElementById("demo").innerHTML = Booleans(x);
