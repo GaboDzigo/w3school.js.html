@@ -1,3 +1,2 @@
-const x = new Boolean(false);
-const y = new Boolean(false);
-document.getElementById("demo").innerHTML = (x===y);
+let x  = 5;
+document.getElementById("demo").innerHTML = (x == 8);
