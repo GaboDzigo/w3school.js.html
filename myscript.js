@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = 2 < 12;
+document.getElementById("demo").innerHTML = 2 < "12";
