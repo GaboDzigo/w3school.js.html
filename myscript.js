@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = 2 > "John";
+document.getElementById("demo").innerHTML = "2" == "12";
