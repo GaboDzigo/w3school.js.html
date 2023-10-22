@@ -1,3 +1,8 @@
-if (new Date().getHours() < 18) {
-  document.getElementById("demo").innerHTML = "Good day!";
+const hour = new Date().getHours();
+let greeting;
+
+if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
 }
