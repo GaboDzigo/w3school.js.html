@@ -6,3 +6,4 @@ if (hour < 18) {
 } else {
   greeting = "Good evening";
 }
+document.getElementById("demo").innerHTML =  greeting;
