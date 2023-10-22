@@ -1,3 +1,3 @@
-const car = {type:"fiat", model:"500", color:"white"};
-let name = car?.name;
-document.getElementById("demo").innerHTML = name;
+if (new Date().getHours() < 18) {
+  document.getElementById("demo").innerHTML = "Good day!";
+}
