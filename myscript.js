@@ -1,8 +1,9 @@
-const car = ["BMW","Volvo","Saab","Ford","Fiat","Audi"];
+const cars = ["BMW", "Volvo", "Saab", "Ford" , "Fiat" , "Audi"];
 
-let text = " ";
+let text = "";
 for (let i = 0; i < cars.length; i++) {
   text += cars[i] + "<br>";
 }
 
 document.getElementById("demo").innerHTML = text;
+
