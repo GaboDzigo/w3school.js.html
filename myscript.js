@@ -1,6 +1,9 @@
 const cars = ["BMW","Volvo","Saab","Ford"];
-let i, len, text;
-for (i = 0 ,len = cars.length,text = ""; i < len; i++) {
-text += cars[i] + "<br>";
+let i = 2;
+let len  = cars.length;
+let text = "";
+
+for (; i < len; i++) {
+  text += cars[i] + "<br>";
 }
-document.getElementById("demo").innerHTML =  text;
+document.getElementById("demo").innerHTML = text;
