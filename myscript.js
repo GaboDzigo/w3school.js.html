@@ -1,11 +1,14 @@
-const time = new Date().getHours();
-let greeting;
-if (time < 10) {
-  greeting = "Good Morning";
-} else if (time < 20) {
-  greeting = "Good Day";
-} else  {
-  greeting = "Good Evening";
+let text;
+switch (new Date().getHours()) {
+  case 6 :
+    text = "Today is Saturday";
+    break;
+
+    case 0 :
+      text = "Today is Sunday";
+      break;
+      default :
+      text = "Looking forward to the weekend"
 }
 
-document.getElementById("demo").innerHTML = greeting;
+document.getElementById("demo").innerHTML = text;
