@@ -1,12 +1,16 @@
 let text;
-switch (new Date().getDay()) {
-  default:
-    text = "Looking forward to the Weekend";
+switch (new Date().getHours()) {
+  case 4 :
+  case 5 :
+    text = "Soon it is Weekend";
+   break;
+    
+   case 0 :
+   case 6 :
+    text = "It is Weekend";
     break;
-  case 6:
-    text = "Today is Saturday";
-    break;
-  case 0:
-    text = "Today is Sunday";
+    default:
+      text = "Looking forward to the Weekend";
 }
+
 document.getElementById("demo").innerHTML = text;
