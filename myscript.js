@@ -1,13 +1,6 @@
-let text = "0";
+const car = ["BMW","Volvo","Saab","Ford","Fiat","Audi"];
 
-switch (x) {
-  case 0 :
-  text = "Off";
-  break;
-  case 1 :
-    text = "On";
-    break;
-    default :
-    text = "No value found";
+let text = " ";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
 }
-document.getElementById("demo").innerHTML = text;
