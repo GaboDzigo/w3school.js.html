@@ -1,6 +1,6 @@
-let text = "";
-
-for (let i = 0; i < 5; i++) {
-  text += "The number is " + i + "<br>";
+const cars = ["BMW","Volvo","Saab","Ford"];
+let i, len, text;
+for (i = 0 ,len = cars.length,text = ""; i < len; i++) {
+text += cars[i] + "<br>";
 }
-document.getElementById("demo").innerHTML = text;
+document.getElementById("demo").innerHTML =  text;
